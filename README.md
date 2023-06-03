@@ -9,7 +9,7 @@ LLVM toolchain.
 The recommended way to interact with urchin is through the `reef` CLI.
 
 ```bash
-$ reef run https://urchin.land/std/examples/hello.ur
+$ reef run https://urchin.land/std/examples/hello.un
 Hello world!
 ```
 
@@ -19,7 +19,7 @@ The syntax of the language is still getting ironed out! Here is a quick demo of
 the language though:
 
 ```un
-import { printf } from "https://urchin.land/std/io/mod.ur";
+import { printf } from "https://urchin.land/std/io/mod.un";
 
 fn main(): u8 {
   printf("Hello world!);
