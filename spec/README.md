@@ -26,7 +26,7 @@ details.
 
 ### Compound Types
 
-```ur
+```un
 // tuples
 let tup: (u8, u32, f32);
 let tup2 = (5, 37.64, true, '🔥');
@@ -68,12 +68,12 @@ This means that modules are not distributed through a centralized platform. That
 being said, the urchin team is working on creating a module repository for
 discovery purposes.
 
-```ur
+```un
 // Import from standard library
-import { printf } from "https://urchin.land/std@0.1.0/io/mod.ur";
+import { printf } from "https://urchin.land/std@0.1.0/io/mod.un";
 
 // Import from local module
-import { add } from "./add.ur";
+import { add } from "./add.un";
 ```
 
 Typing out fully qualified URLs is painful, so we are working on a way to

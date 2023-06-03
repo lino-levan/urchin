@@ -1,4 +1,4 @@
-import { malloc, free } from "https://urchin.land/std/mem/mod.ur";
+import { malloc, free } from "https://urchin.land/std/mem/mod.un";
 
 fn main(): uint8 {
   // Allocate 100 bytes

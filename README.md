@@ -18,7 +18,7 @@ Hello world!
 The syntax of the language is still getting ironed out! Here is a quick demo of
 the language though:
 
-```ur
+```un
 import { printf } from "https://urchin.land/std/io/mod.ur";
 
 fn main(): u8 {
